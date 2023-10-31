@@ -1,0 +1,86 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.memoryHeap {
+    display: flex;
+}
+
+.memoryReceived {
+    color: #57fc8e;
+}
+
+.memorySent {
+    margin-inline: 10px;
+    color: #fa48a1;
+}
+
+.secao4 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.secao4-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.secao4-div-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+// .secao4-div-card:hover {
+//     transform: scale(1.1);
+//     z-index: 1;
+// }
+
+.secao4-div-card img {
+    width: 35%;
+    height: auto;
+}
+
+.secao4-div-card h3 {
+    margin-bottom: 0px;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .secao4-div-card {
+        width: 100%;
+    }
+}
+
+
+
+
+.servicesNames {
+    text-align: justify;
+    margin-right: 20px;
+}
+.servicesStatus {
+    text-align: end;
+    margin-left: 20px;
+}
+.naoUtilizado {
+    color: rgb(254, 243, 41);
+}
+.operacional {
+    color: #34ff77;
+}
+.falha {
+    color: #fc3838;
+}
